@@ -1,0 +1,89 @@
+@import 'ant-design-vue/lib/style/themes/default.less';
+
+.trigger{
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+  &:hover{
+      color: @primary-color;
+  }
+}
+.header-index{
+  height: 64px;
+  padding: 0 12px 0 0;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  position: relative;
+}
+
+@ai-header-prefix: ~"@{ai-prefix}-header";
+
+.@{ai-header-prefix}-right {
+  float: right;
+  height: 100%;
+  .action {
+    cursor: pointer;
+    padding: 0 12px;
+    display: inline-block;
+    transition: all 0.3s;
+    height: 100%;
+    > i {
+      font-size: 18px;
+      vertical-align: middle;
+      color: @text-color;
+    }
+    &:hover {
+      background: @primary-1;
+    }
+    :global(&.ant-popover-open) {
+      background: @primary-1;
+    }
+  }
+  .search {
+    padding: 0 12px;
+    &:hover {
+      background: transparent;
+    }
+  }
+  .account {
+    .avatar {
+      margin: 20px 8px 20px 0;
+      color: @primary-color;
+      background: rgba(255, 255, 255, 0.85);
+      vertical-align: middle;
+    }
+    .name{
+      margin-top: 5px;
+    }
+  }
+
+
+  &.dark {
+    .action {
+      color: rgba(255, 255, 255, 0.85);
+      > i {
+        color: rgba(255, 255, 255, 0.85);
+      }
+      &:hover,
+      &:global(.ant-popover-open) {
+        background: transparent;
+      }
+      :global(.ant-badge) {
+        color: rgba(255, 255, 255, 0.85);
+      }
+    }
+  }
+}
+
+
+.menu {
+  :global(.anticon) {
+    margin-right: 8px;
+  }
+  :global(.ant-dropdown-menu-item) {
+    width: 160px;
+  }
+}
+
