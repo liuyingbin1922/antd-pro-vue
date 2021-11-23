@@ -1,15 +1,15 @@
 # 工作中台基础UI
 
 #### 项目介绍
-[SeedWorkbenchUi](https://github.com/ruyangit/seed-workbench-ui) 简洁的中台UI，vuejs 开发，组件化，模块化 See: <a href="https://ruyangit.gitee.io/seed-workbench-ui">demo</a>
+简洁的中台UI，vuejs 开发，组件化，模块化。提供基础中台样式，帮助开发者直接复用该项目。
 
 <p align="center">
   <!-- <a><img src="https://img.shields.io/github/release/ruyangit/seed-workbench-ui.svg"/></a>
   <a><img src="https://badge.fury.io/js/%40seed-workbench-ui%2Fice-scaffold.svg"/></a> -->
-  <a><img src="https://img.shields.io/github/last-commit/ruyangit/seed-workbench-ui.svg"/></a>
+  <!-- <a><img src="https://img.shields.io/github/last-commit/ruyangit/seed-workbench-ui.svg"/></a>
   <a><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"/></a>
   <a><img src="https://img.shields.io/github/forks/ruyangit/seed-workbench-ui.svg"/></a>
-<a><img src="https://img.shields.io/github/stars/ruyangit/seed-workbench-ui.svg"/></a>
+<a><img src="https://img.shields.io/github/stars/ruyangit/seed-workbench-ui.svg"/></a> -->
 </p>
 
 #### 先来波图
@@ -137,8 +137,7 @@ chainWebpack: config => {
 
 #### 计划
 * 后续完善UI中所需的组件
-* 对接完成自己开发的后台系统
-  [SpringbootSeed](https://gitee.com/ruyangit/springboot-seed)
+* 对接完成自己开发的后台系统[nest搭建，暂时在开发中]
 * 关于阿里的g2 或者百度的 echarts 对于我来说感觉有点大，之后看看图表相关的简化一下
 * 代码的规范及API文档的编写
 * 代码的CI，CD测试
@@ -150,6 +149,3 @@ chainWebpack: config => {
 2. 新建 Feat_xxx 分支
 3. 提交代码
 4. 新建 Pull Request
-
-
-#### 人家都喝咖啡，我就喝瓶水就行，谢谢支持！
